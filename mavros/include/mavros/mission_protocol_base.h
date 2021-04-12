@@ -74,13 +74,13 @@ static double waypoint_encode_factor( const uint8_t &frame ){
 	case enum_value(MAV_FRAME::BODY_NED):
 	case enum_value(MAV_FRAME::BODY_OFFSET_NED):
 	case enum_value(MAV_FRAME::BODY_FRD):
-	case enum_value(MAV_FRAME::BODY_FLU):
-	case enum_value(MAV_FRAME::MOCAP_NED):
-	case enum_value(MAV_FRAME::MOCAP_ENU):
-	case enum_value(MAV_FRAME::VISION_NED):
-	case enum_value(MAV_FRAME::VISION_ENU):
-	case enum_value(MAV_FRAME::ESTIM_NED):
-	case enum_value(MAV_FRAME::ESTIM_ENU):
+	// case enum_value(MAV_FRAME::BODY_FLU):
+	// case enum_value(MAV_FRAME::MOCAP_NED):
+	// case enum_value(MAV_FRAME::MOCAP_ENU):
+	// case enum_value(MAV_FRAME::VISION_NED):
+	// case enum_value(MAV_FRAME::VISION_ENU):
+	// case enum_value(MAV_FRAME::ESTIM_NED):
+	// case enum_value(MAV_FRAME::ESTIM_ENU):
 	case enum_value(MAV_FRAME::LOCAL_FRD):
 	case enum_value(MAV_FRAME::LOCAL_FLU):
 		return 10000;
